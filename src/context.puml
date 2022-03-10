@@ -1,0 +1,13 @@
+@startuml
+!include https://raw.githubusercontent.com/adrianvlupu/C4-PlantUML/latest/C4_Context.puml
+
+LAYOUT_WITH_LEGEND()
+
+Person(upeStudent, "UPE Student", "A student of UPE, with Unical account")
+System(unical, "Unical UPE System", "Allow users to view, manage and share information about university events")
+System_Ext(gAuth, "Google Authentication API", "API to authenticate user login and/or subscription")
+
+
+Rel(upeStudent, unical,"Uses", "HTTP")
+Rel(unical, gAuth, "Authenticate user", "HTTP")
+@enduml
