@@ -1,0 +1,63 @@
+@startuml
+!include https://raw.githubusercontent.com/adrianvlupu/C4-PlantUML/latest/C4_Container.puml
+
+LAYOUT_WITH_LEGEND()
+
+ContainerDb(db, "Database", "postgresql", "Stores events data and user authentication info")
+Container(mobileApp, "Mobile App", "Container: React Native", "Provides full set of Unicall functionalities to users via their mobile device")
+System_Ext(gAuth, "Google Authentication API", "API to authenticate user login and/or subscription")
+Container_Boundary(api, "API Application"){
+  Container(UserController, "User Controller", "Component: Spring MVC Rest Controller", "")
+  Container(NotificationController, "Notification Controller", "Component: Spring MVC Rest Controller", "")
+  Container(EventController, "Event Controller", "Component: Spring MVC Rest Controller", "")
+  Container(CourseController, "Course Controller", "Component: Spring MVC Rest Controller", "")
+  
+  Container(UserService, "User Service", "Component: Spring Service", "")
+  Container(NotificationService, "Notification Service", "Component: Spring Service", "")
+  Container(EventService, "Event Service", "Component: Spring Service", "")
+  Container(CourseService, "Course Service", "Component: Spring Service", "")
+
+  Container(UserDAO, "User DAO", "Component: Data Access Object", "")
+  Container(NotificationDAO, "Notification DAO", "Component: Data Access Object", "")
+  Container(EventDAO, "Event DAO", "Component: Data Access Object", "")
+  Container(CourseDAO, "Course DAO", "Component: Data Access Object", "")
+  
+    Rel(mobileApp, UserController, "Makes API calls to", "JSON/HTTP")
+    Rel(mobileApp, NotificationController, "Makes API calls to", "JSON/HTTP")
+    Rel(mobileApp, EventController, "Makes API calls to", "JSON/HTTP")
+    Rel(mobileApp, CourseController, "Makes API calls to","JSON/HTTP")
+
+    Rel(UserController, UserService ,"Uses")
+    Rel(NotificationController, NotificationService ,"Uses" )
+    Rel(EventController, EventService ,"Uses")
+    Rel(CourseController, CourseService ,"Uses")
+    
+    Rel(UserService, UserDAO ,"Uses")
+    Rel(NotificationService, NotificationDAO ,"Uses")
+    Rel(EventService, EventDAO ,"Uses")
+    Rel(CourseService, CourseDAO ,"Uses")
+
+
+    Rel(UserService, CourseDAO ,"Uses")
+    Rel(NotificationService, UserDAO ,"Uses")
+    Rel(EventService, CourseDAO ,"Uses")
+    Rel(EventService, UserDAO ,"Uses")
+    Rel(EventService, NotificationDAO ,"Uses")
+
+
+
+
+    
+    Rel(UserController, gAuth,"Makes API calls to", "JSON/HTTP")
+
+
+    
+    
+    Rel(UserDAO, db, "Reads from and writes to", "JDBC")
+    Rel(NotificationDAO, db, "Reads from and writes to", "JDBC")
+    Rel(EventDAO, db, "Reads from and writes to", "JDBC")
+    Rel(CourseDAO, db, "Reads from and writes to", "JDBC")
+}
+
+
+@enduml

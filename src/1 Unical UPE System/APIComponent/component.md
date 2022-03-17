@@ -1,4 +1,4 @@
-**Level 3: Component diagram**
+**Level 2: Component diagram**
 
 Next you can zoom in and decompose each container further to identify the major structural building blocks and their interactions.
 
@@ -11,6 +11,4 @@ Supporting elements: Containers (within the software system in scope) plus peopl
 
 **Intended audience**: Software architects and developers.
 
-> Example of included local image
-
-![](2020-01-10-16-21-41.png)
+**Notes**: uses component diagrams if you feel they add value, and consider automating their creation for long-lived documentation.

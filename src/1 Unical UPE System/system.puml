@@ -8,7 +8,7 @@ System_Ext(gAuth, "Google Authentication API", "API to authenticate user login a
 System_Boundary(unical, "Unical UPE System"){
   Container(mobileApp, "Mobile App", "React Native", "Provides full set of Unicall functionalities to users via their mobile device")
   Container(api, "API", "Java(SpringBoot)", "Provides The Events functionality via JSON/HTTPS")
-  Container(db, "Database", "postgresql", "Stores events data and user authentication info")
+  ContainerDb(db, "Database", "postgresql", "Stores events data and user authentication info")
   
   Rel(mobileApp, api, "Uses", "JSON/HTTPS")
   Rel(api, db, "Reads & writes to", "JDBC")
