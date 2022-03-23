@@ -1,0 +1,401 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="988px" preserveAspectRatio="none" style="width:1202px;height:988px;background:#FFFFFF;" version="1.1" viewBox="0 0 1202 988" width="1202px" zoomAndPan="magnify"><defs/><g><!--MD5=[7442f3b126ee602ae02566c1a49e158a]
+cluster api--><rect fill="#FFFFFF" height="415.5" style="stroke:#444444;stroke-width:1.0;stroke-dasharray:7.0,7.0;" width="953" x="243" y="211"/><text fill="#444444" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="116" x="661.5" y="229.6094">API Application</text><text fill="#444444" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="63" x="688" y="245.582">[Container]</text><!--MD5=[295e7f979b0f2f51125e70a714eb5aaf]
+entity UserController--><rect fill="#438DD5" height="70.3125" style="stroke:#3C7FC0;stroke-width:1.5;" width="190" x="750" y="265"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="116" x="787" y="291.6094">User Controller</text><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="167" x="760" y="307.582">[Component: Spring MVC Rest</text><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="57" x="816.5" y="322.6758">Controller]</text><!--MD5=[6e62666fad6098c66ceac4f1e337719f]
+entity NotificationController--><rect fill="#438DD5" height="70.3125" style="stroke:#3C7FC0;stroke-width:1.5;" width="190" x="300" y="265"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="167" x="311.5" y="291.6094">Notification Controller</text><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="167" x="310" y="307.582">[Component: Spring MVC Rest</text><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="57" x="366.5" y="322.6758">Controller]</text><!--MD5=[ebee41ccddfb1b09a18bc12fb5632674]
+entity EventController--><rect fill="#438DD5" height="70.3125" style="stroke:#3C7FC0;stroke-width:1.5;" width="190" x="525" y="265"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="124" x="558" y="291.6094">Event Controller</text><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="167" x="535" y="307.582">[Component: Spring MVC Rest</text><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="57" x="591.5" y="322.6758">Controller]</text><!--MD5=[4311e52da72cc76b162ca38c05be05a6]
+entity CourseController--><rect fill="#438DD5" height="70.3125" style="stroke:#3C7FC0;stroke-width:1.5;" width="190" x="976" y="265"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="136" x="1003" y="291.6094">Course Controller</text><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="167" x="986" y="307.582">[Component: Spring MVC Rest</text><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="57" x="1042.5" y="322.6758">Controller]</text><!--MD5=[43a817812dddb31c7306ddcbea69bb00]
+entity UserService--><rect fill="#438DD5" height="55.2188" style="stroke:#3C7FC0;stroke-width:1.5;" width="177" x="756.5" y="423.5"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="97" x="796.5" y="450.1094">User Service</text><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="157" x="766.5" y="466.082">[Component: Spring Service]</text><!--MD5=[4be23415307477b21fc2b4d45e2cc58d]
+entity NotificationService--><rect fill="#438DD5" height="55.2188" style="stroke:#3C7FC0;stroke-width:1.5;" width="177" x="306.5" y="423.5"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="148" x="321" y="450.1094">Notification Service</text><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="157" x="316.5" y="466.082">[Component: Spring Service]</text><!--MD5=[9ee2583cc83a78d2479e9d6936993e6f]
+entity EventService--><rect fill="#438DD5" height="55.2188" style="stroke:#3C7FC0;stroke-width:1.5;" width="177" x="531.5" y="423.5"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="105" x="567.5" y="450.1094">Event Service</text><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="157" x="541.5" y="466.082">[Component: Spring Service]</text><!--MD5=[8d7718e46569868438d8f54948a4af45]
+entity CourseService--><rect fill="#438DD5" height="55.2188" style="stroke:#3C7FC0;stroke-width:1.5;" width="177" x="984.5" y="423.5"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="117" x="1014.5" y="450.1094">Course Service</text><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="157" x="994.5" y="466.082">[Component: Spring Service]</text><!--MD5=[1d30c20b05c62a4a54036e1470db5505]
+entity UserDAO--><rect fill="#438DD5" height="55.2188" style="stroke:#3C7FC0;stroke-width:1.5;" width="204" x="498" y="555.5"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="75" x="562.5" y="582.1094">User DAO</text><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="184" x="508" y="598.082">[Component: Data Access Object]</text><!--MD5=[ffc16bf375c6365b43f632094054f96e]
+entity NotificationDAO--><rect fill="#438DD5" height="55.2188" style="stroke:#3C7FC0;stroke-width:1.5;" width="204" x="259" y="555.5"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="126" x="298" y="582.1094">Notification DAO</text><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="184" x="269" y="598.082">[Component: Data Access Object]</text><!--MD5=[579ca0dd3cf5c12e7cb38e3779e2a3a8]
+entity EventDAO--><rect fill="#438DD5" height="55.2188" style="stroke:#3C7FC0;stroke-width:1.5;" width="204" x="737" y="555.5"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="83" x="797.5" y="582.1094">Event DAO</text><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="184" x="747" y="598.082">[Component: Data Access Object]</text><!--MD5=[b9ad193cd26f0294ecb3d4d1212b82cb]
+entity CourseDAO--><rect fill="#438DD5" height="55.2188" style="stroke:#3C7FC0;stroke-width:1.5;" width="204" x="976" y="555.5"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="95" x="1030.5" y="582.1094">Course DAO</text><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="184" x="986" y="598.082">[Component: Data Access Object]</text><!--MD5=[7468467f3b6b392f1d176d828c753b77]
+entity db--><path d="M601.5,714.5 C601.5,704.5 705,704.5 705,704.5 C705,704.5 808.5,704.5 808.5,714.5 L808.5,811.5469 C808.5,821.5469 705,821.5469 705,821.5469 C705,821.5469 601.5,821.5469 601.5,811.5469 L601.5,714.5 " fill="#438DD5" style="stroke:#3C7FC0;stroke-width:1.5;"/><path d="M601.5,714.5 C601.5,724.5 705,724.5 705,724.5 C705,724.5 808.5,724.5 808.5,714.5 " fill="none" style="stroke:#3C7FC0;stroke-width:1.5;"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="72" x="669" y="745.1094">Database</text><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="63" x="673.5" y="761.082">[postgresql]</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="0" x="707" y="778.252"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="179" x="615.5" y="795.8613">Stores events data and user</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="116" x="647" y="813.4707">authentication info</text><!--MD5=[225c68f021350fa95a467c461274d90d]
+entity mobileApp--><rect fill="#438DD5" height="125.6563" style="stroke:#3C7FC0;stroke-width:1.5;" width="219" x="510.5" y="7"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="85" x="577.5" y="33.6094">Mobile App</text><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="136" x="552" y="49.582">[Container: React Native]</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="0" x="622" y="66.752"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="161" x="539.5" y="84.3613">Provides full set of Unicall</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="195" x="520.5" y="101.9707">functionalities to users via their</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="86" x="577" y="119.5801">mobile device</text><!--MD5=[cbbd59ab7442f0b5a82c52935d2d951c]
+entity gAuth--><rect fill="#999999" height="92.9531" style="stroke:#8A8A8A;stroke-width:1.5;" width="220" x="7" y="253.5"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="200" x="17" y="280.1094">Google Authentication API</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="0" x="119" y="298.1582"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="185" x="24.5" y="315.7676">API to authenticate user login</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="121" x="56.5" y="333.377">and/or subscription</text><!--MD5=[10c37585b7ab272ca304f0dd96c59f99]
+link mobileApp to UserController--><path d="M701.23,133.07 C712.57,142.73 723.81,152.87 734,163 C764.01,192.84 794.12,230.33 815.4,258.38 " fill="none" id="mobileApp-to-UserController" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="820.34,264.94,817.9195,256.746,813.1285,260.358,820.34,264.94" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="104" x="764" y="176.457">Makes API calls to</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="72" x="780" y="191.5508">[JSON/HTTP]</text><!--MD5=[7dd6d132476b94f9bc4bb8a99cf86ce6]
+link mobileApp to NotificationController--><path d="M538.77,133.07 C527.43,142.73 516.19,152.87 506,163 C475.99,192.84 445.88,230.33 424.6,258.38 " fill="none" id="mobileApp-to-NotificationController" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="419.66,264.94,426.8715,260.358,422.0805,256.746,419.66,264.94" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="104" x="507" y="176.457">Makes API calls to</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="72" x="523" y="191.5508">[JSON/HTTP]</text><!--MD5=[0fbc5e93701355d8bc883b0fb556588e]
+link mobileApp to EventController--><path d="M620,133 C620,172.31 620,222.12 620,256.87 " fill="none" id="mobileApp-to-EventController" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="620,264.93,623,256.93,617,256.93,620,264.93" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="104" x="621" y="176.457">Makes API calls to</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="72" x="637" y="191.5508">[JSON/HTTP]</text><!--MD5=[1aa3093017d9e720eedf2462d96b2b86]
+link mobileApp to CourseController--><path d="M729.84,101.02 C798.82,122.9 887.72,156.81 958,203 C982.95,219.4 1008.49,240.65 1028.97,258.98 " fill="none" id="mobileApp-to-CourseController" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="1035.15,264.57,1031.2166,256.9853,1027.1992,261.4418,1035.15,264.57" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="104" x="942" y="176.457">Makes API calls to</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="72" x="958" y="191.5508">[JSON/HTTP]</text><!--MD5=[24950bc54895f33afc2647af6e65f42d]
+link UserController to UserService--><path d="M845,335.18 C845,359.16 845,391.12 845,415.22 " fill="none" id="UserController-to-UserService" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="845,423.4,848,415.4,842,415.4,845,423.4" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="29" x="846" y="389.957">Uses</text><!--MD5=[3fbd30fd27bbfbb9b17a3706e8a28965]
+link NotificationController to NotificationService--><path d="M395,335.18 C395,359.16 395,391.12 395,415.22 " fill="none" id="NotificationController-to-NotificationService" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="395,423.4,398,415.4,392,415.4,395,423.4" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="29" x="396" y="389.957">Uses</text><!--MD5=[4c7be6842af366dbb5b9368f3bf10630]
+link EventController to EventService--><path d="M620,335.18 C620,359.16 620,391.12 620,415.22 " fill="none" id="EventController-to-EventService" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="620,423.4,623,415.4,617,415.4,620,423.4" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="29" x="621" y="389.957">Uses</text><!--MD5=[72cbbc1b57ab8af2ce7626274e4b0fc3]
+link CourseController to CourseService--><path d="M1071.46,335.18 C1071.78,359.16 1072.21,391.12 1072.53,415.22 " fill="none" id="CourseController-to-CourseService" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="1072.64,423.4,1075.5254,415.358,1069.526,415.4437,1072.64,423.4" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="29" x="1073" y="389.957">Uses</text><!--MD5=[4e60e28540fa00e034c7fa48ce83bd97]
+link UserService to UserDAO--><path d="M767.7,478.5 C745.95,487.03 722.61,497.23 702,508.5 C680.17,520.44 657.55,536.32 639.18,550.26 " fill="none" id="UserService-to-UserDAO" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="632.61,555.3,640.782,552.8064,637.1274,548.0479,632.61,555.3" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="29" x="703" y="521.957">Uses</text><!--MD5=[fbbcbba7607f0deae781b4732dbf285a]
+link NotificationService to NotificationDAO--><path d="M382.67,478.56 C378.76,487.86 374.74,498.49 372,508.5 C368.59,520.94 366.17,534.86 364.48,547.22 " fill="none" id="NotificationService-to-NotificationDAO" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="363.42,555.49,367.4109,547.9354,361.4594,547.174,363.42,555.49" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="29" x="373" y="521.957">Uses</text><!--MD5=[8785393d91fca2e069096709c457a1cf]
+link EventService to EventDAO--><path d="M683.45,478.64 C702.39,487.37 722.91,497.65 741,508.5 C761.63,520.87 783.16,536.66 800.77,550.43 " fill="none" id="EventService-to-EventDAO" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="807.07,555.4,802.6542,548.0856,798.9335,552.7927,807.07,555.4" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="29" x="767" y="521.957">Uses</text><!--MD5=[5b25ffd4a9b036b0008f90a400fe4e4d]
+link CourseService to CourseDAO--><path d="M1074.02,478.62 C1074.79,498.43 1075.83,525.64 1076.66,547.17 " fill="none" id="CourseService-to-CourseDAO" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="1076.98,555.41,1079.6636,547.2984,1073.6683,547.5339,1076.98,555.41" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="29" x="1076" y="521.957">Uses</text><!--MD5=[5c456f52d3a15accb5ffd5df2219a2f5]
+link UserService to CourseDAO--><path d="M898.52,478.62 C916.59,487.84 936.79,498.4 955,508.5 C979.34,522 1005.9,537.74 1028.09,551.19 " fill="none" id="UserService-to-CourseDAO" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="1035.13,555.46,1029.8567,548.7375,1026.7367,553.8625,1035.13,555.46" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="29" x="983" y="521.957">Uses</text><!--MD5=[b7d5b9008e333326cf32cc9cdf4f76b8]
+link NotificationService to UserDAO--><path d="M437.62,478.66 C452.62,488.06 469.57,498.73 485,508.5 C506.94,522.4 531.17,537.87 551.72,551.02 " fill="none" id="NotificationService-to-UserDAO" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="558.53,555.38,553.4082,548.5414,550.1745,553.5954,558.53,555.38" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="29" x="511" y="521.957">Uses</text><!--MD5=[708e3a1d30e817ec23043bfbfb991fdb]
+link EventService to CourseDAO--><path d="M708.58,477.14 C785.26,498.91 896.15,530.38 976.41,553.16 " fill="none" id="EventService-to-CourseDAO" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="984.57,555.48,977.6846,550.4213,976.0561,556.196,984.57,555.48" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="29" x="877" y="521.957">Uses</text><!--MD5=[80a68e6edd65b21a88e0a30cade64b5c]
+link EventService to UserDAO--><path d="M615.9,478.62 C612.84,498.51 608.63,525.88 605.31,547.46 " fill="none" id="EventService-to-UserDAO" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="604.09,555.41,608.2706,547.9586,602.3402,547.0471,604.09,555.41" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="29" x="612" y="521.957">Uses</text><!--MD5=[52bb23cda8a5a618842732e3ed8f88d0]
+link EventService to NotificationDAO--><path d="M531.29,473.35 C503.02,482.08 472.28,493.68 446,508.5 C426.5,519.5 407.4,535.41 392.26,549.61 " fill="none" id="EventService-to-NotificationDAO" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="386.45,555.16,394.3065,551.8021,390.1614,547.4642,386.45,555.16" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="29" x="447" y="521.957">Uses</text><!--MD5=[c6663c9608c2b93f9d44f6dd20e76bea]
+link mobileApp to gAuth--><path d="M510.17,99.51 C432.84,121.94 328.33,157.05 243,203 C219.62,215.59 195.95,232.34 175.54,248.32 " fill="none" id="mobileApp-to-gAuth" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="169.03,253.47,177.1665,250.8627,173.4458,246.1556,169.03,253.47" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="104" x="322" y="176.457">Makes API calls to</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="72" x="338" y="191.5508">[JSON/HTTP]</text><!--MD5=[323b8ae50f50993ddfbfba112bdd0a96]
+link UserDAO to db--><path d="M608.72,610.63 C615.29,629.15 625.19,654.08 637,674.5 C641.42,682.15 646.45,689.87 651.72,697.39 " fill="none" id="UserDAO-to-db" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="656.62,704.24,654.3993,695.9896,649.522,699.4842,656.62,704.24" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="143" x="638" y="655.957">Reads from and writes to</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="38" x="690.5" y="671.0508">[JDBC]</text><!--MD5=[d90f3dbf2674c39d2d167ad7522eceb1]
+link NotificationDAO to db--><path d="M387.14,610.68 C407.66,630.42 437.73,656.85 468,674.5 C506.97,697.22 552.88,715.81 593.86,729.92 " fill="none" id="NotificationDAO-to-db" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="601.46,732.5,594.8497,727.0867,592.9202,732.768,601.46,732.5" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="143" x="469" y="655.957">Reads from and writes to</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="38" x="521.5" y="671.0508">[JDBC]</text><!--MD5=[78f77136d4ae57f9ceb487c7c3ec7649]
+link EventDAO to db--><path d="M825.36,610.69 C815.41,629.24 801.08,654.17 786,674.5 C780.22,682.29 773.84,690.17 767.27,697.83 " fill="none" id="EventDAO-to-db" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="761.72,704.21,769.2342,700.1435,764.7075,696.2053,761.72,704.21" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="143" x="807" y="655.957">Reads from and writes to</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="38" x="859.5" y="671.0508">[JDBC]</text><!--MD5=[4ebb6e80c87cd101c660b9a0dd1573e5]
+link CourseDAO to db--><path d="M1048.52,610.69 C1025.49,630.45 991.96,656.88 959,674.5 C914.38,698.35 861.97,717.7 816.38,732.08 " fill="none" id="CourseDAO-to-db" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="808.54,734.53,817.0697,735.0245,815.2916,729.294,808.54,734.53" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="143" x="1008" y="655.957">Reads from and writes to</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="38" x="1060.5" y="671.0508">[JDBC]</text><rect fill="#FFFFFF" height="137.2656" rx="5" ry="5" style="stroke:#FFFFFF;stroke-width:1.0;" width="133" x="1047" y="835.5469"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="53" x="1053" y="857.0801">Legend</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="0" x="1110" y="857.0801"/><rect fill="#08427B" height="17.6094" style="stroke:none;stroke-width:1.0;" width="121" x="1053" y="860.1563"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="44" x="1057" y="874.6895">person</text><rect fill="#1168BD" height="17.6094" style="stroke:none;stroke-width:1.0;" width="121" x="1053" y="877.7656"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="44" x="1057" y="892.2988">system</text><rect fill="#438DD5" height="17.6094" style="stroke:none;stroke-width:1.0;" width="121" x="1053" y="895.375"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="59" x="1057" y="909.9082">container</text><rect fill="#686868" height="17.6094" style="stroke:none;stroke-width:1.0;" width="121" x="1053" y="912.9844"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="98" x="1057" y="927.5176">external person</text><rect fill="#999999" height="17.6094" style="stroke:none;stroke-width:1.0;" width="121" x="1053" y="930.5938"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="98" x="1057" y="945.127">external system</text><rect fill="#B3B3B3" height="17.6094" style="stroke:none;stroke-width:1.0;" width="121" x="1053" y="948.2031"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="113" x="1057" y="962.7363">external container</text><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="1053" x2="1174" y1="842.5469" y2="842.5469"/><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="1053" x2="1174" y1="860.1563" y2="860.1563"/><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="1053" x2="1174" y1="877.7656" y2="877.7656"/><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="1053" x2="1174" y1="895.375" y2="895.375"/><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="1053" x2="1174" y1="912.9844" y2="912.9844"/><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="1053" x2="1174" y1="930.5938" y2="930.5938"/><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="1053" x2="1174" y1="948.2031" y2="948.2031"/><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="1053" x2="1174" y1="965.8125" y2="965.8125"/><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="1053" x2="1053" y1="842.5469" y2="965.8125"/><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="1174" x2="1174" y1="842.5469" y2="965.8125"/><!--MD5=[c9948d3e5bffd47a6a3cff43ec61b0b5]
+@startuml
+!include https://raw.githubusercontent.com/adrianvlupu/C4-PlantUML/latest/C4_Container.puml
+
+LAYOUT_WITH_LEGEND()
+
+ContainerDb(db, "Database", "postgresql", "Stores events data and user authentication info")
+Container(mobileApp, "Mobile App", "Container: React Native", "Provides full set of Unicall functionalities to users via their mobile device")
+System_Ext(gAuth, "Google Authentication API", "API to authenticate user login and/or subscription")
+Container_Boundary(api, "API Application"){
+  Container(UserController, "User Controller", "Component: Spring MVC Rest Controller", "")
+  Container(NotificationController, "Notification Controller", "Component: Spring MVC Rest Controller", "")
+  Container(EventController, "Event Controller", "Component: Spring MVC Rest Controller", "")
+  Container(CourseController, "Course Controller", "Component: Spring MVC Rest Controller", "")
+  
+  Container(UserService, "User Service", "Component: Spring Service", "")
+  Container(NotificationService, "Notification Service", "Component: Spring Service", "")
+  Container(EventService, "Event Service", "Component: Spring Service", "")
+  Container(CourseService, "Course Service", "Component: Spring Service", "")
+
+  Container(UserDAO, "User DAO", "Component: Data Access Object", "")
+  Container(NotificationDAO, "Notification DAO", "Component: Data Access Object", "")
+  Container(EventDAO, "Event DAO", "Component: Data Access Object", "")
+  Container(CourseDAO, "Course DAO", "Component: Data Access Object", "")
+  
+    Rel(mobileApp, UserController, "Makes API calls to", "JSON/HTTP")
+    Rel(mobileApp, NotificationController, "Makes API calls to", "JSON/HTTP")
+    Rel(mobileApp, EventController, "Makes API calls to", "JSON/HTTP")
+    Rel(mobileApp, CourseController, "Makes API calls to","JSON/HTTP")
+
+    Rel(UserController, UserService ,"Uses")
+    Rel(NotificationController, NotificationService ,"Uses" )
+    Rel(EventController, EventService ,"Uses")
+    Rel(CourseController, CourseService ,"Uses")
+    
+    Rel(UserService, UserDAO ,"Uses")
+    Rel(NotificationService, NotificationDAO ,"Uses")
+    Rel(EventService, EventDAO ,"Uses")
+    Rel(CourseService, CourseDAO ,"Uses")
+
+
+    Rel(UserService, CourseDAO ,"Uses")
+    Rel(NotificationService, UserDAO ,"Uses")
+    Rel(EventService, CourseDAO ,"Uses")
+    Rel(EventService, UserDAO ,"Uses")
+    Rel(EventService, NotificationDAO ,"Uses")
+
+
+
+
+    
+    Rel(mobileApp, gAuth,"Makes API calls to", "JSON/HTTP")
+
+
+    
+    
+    Rel(UserDAO, db, "Reads from and writes to", "JDBC")
+    Rel(NotificationDAO, db, "Reads from and writes to", "JDBC")
+    Rel(EventDAO, db, "Reads from and writes to", "JDBC")
+    Rel(CourseDAO, db, "Reads from and writes to", "JDBC")
+}
+
+
+@enduml
+
+@startuml
+
+
+
+
+
+skinparam defaultTextAlignment center
+
+skinparam wrapWidth 200
+skinparam maxMessageSize 150
+
+skinparam LegendBorderColor transparent
+skinparam LegendBackgroundColor transparent
+skinparam LegendFontColor #FFFFFF
+
+skinparam rectangle {
+    StereotypeFontSize 12
+    shadowing false
+}
+
+skinparam database {
+    StereotypeFontSize 12
+    shadowing false
+}
+
+skinparam queue {
+    StereotypeFontSize 12
+    shadowing false
+}
+
+skinparam Arrow {
+    Color #666666
+    FontColor #666666
+    FontSize 12
+}
+
+skinparam rectangle<<boundary>> {
+    Shadowing false
+    StereotypeFontSize 0
+    FontColor #444444
+    BorderColor #444444
+    BorderStyle dashed
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+skinparam rectangle<<person>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #08427B
+    BorderColor #073B6F
+}
+
+skinparam rectangle<<external_person>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #686868
+    BorderColor #8A8A8A
+}
+
+skinparam rectangle<<system>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #1168BD
+    BorderColor #3C7FC0
+}
+
+skinparam rectangle<<external_system>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #999999
+    BorderColor #8A8A8A
+}
+
+sprite $person [48x48/16] {
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+0000000000000000000049BCCA7200000000000000000000
+0000000000000000006EFFFFFFFFB3000000000000000000
+00000000000000001CFFFFFFFFFFFF700000000000000000
+0000000000000001EFFFFFFFFFFFFFF80000000000000000
+000000000000000CFFFFFFFFFFFFFFFF6000000000000000
+000000000000007FFFFFFFFFFFFFFFFFF100000000000000
+00000000000001FFFFFFFFFFFFFFFFFFF900000000000000
+00000000000006FFFFFFFFFFFFFFFFFFFF00000000000000
+0000000000000BFFFFFFFFFFFFFFFFFFFF40000000000000
+0000000000000EFFFFFFFFFFFFFFFFFFFF70000000000000
+0000000000000FFFFFFFFFFFFFFFFFFFFF80000000000000
+0000000000000FFFFFFFFFFFFFFFFFFFFF80000000000000
+0000000000000DFFFFFFFFFFFFFFFFFFFF60000000000000
+0000000000000AFFFFFFFFFFFFFFFFFFFF40000000000000
+00000000000006FFFFFFFFFFFFFFFFFFFE00000000000000
+00000000000000EFFFFFFFFFFFFFFFFFF800000000000000
+000000000000007FFFFFFFFFFFFFFFFFF100000000000000
+000000000000000BFFFFFFFFFFFFFFFF5000000000000000
+0000000000000001DFFFFFFFFFFFFFF70000000000000000
+00000000000000000BFFFFFFFFFFFF500000000000000000
+0000000000000000005DFFFFFFFFA1000000000000000000
+0000000000000000000037ABB96100000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000025788300000000005886410000000000000
+000000000007DFFFFFFD9643347BFFFFFFFB400000000000
+0000000004EFFFFFFFFFFFFFFFFFFFFFFFFFFB1000000000
+000000007FFFFFFFFFFFFFFFFFFFFFFFFFFFFFD200000000
+00000006FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFE10000000
+0000003FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB0000000
+000000BFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF5000000
+000003FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFD000000
+000009FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF200000
+00000DFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF600000
+00000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF800000
+00001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFA00000
+00001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB00000
+00001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB00000
+00001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB00000
+00001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFA00000
+00000EFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF700000
+000006FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFE100000
+0000008FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFD3000000
+000000014555555555555555555555555555555300000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+skinparam rectangle<<container>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #438DD5
+    BorderColor #3C7FC0
+}
+
+skinparam database<<container>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #438DD5
+    BorderColor #3C7FC0
+}
+
+skinparam queue<<container>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #438DD5
+    BorderColor #3C7FC0
+}
+
+skinparam rectangle<<external_container>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #B3B3B3
+    BorderColor #A6A6A6
+}
+
+skinparam database<<external_container>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #B3B3B3
+    BorderColor #A6A6A6
+}
+
+skinparam queue<<external_container>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #B3B3B3
+    BorderColor #A6A6A6
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+hide stereotype
+legend right
+|<color:#000000>**Legend**</color> |
+|<#08427B> person |
+|<#1168BD> system |
+|<#438DD5> container |
+|<#686868> external person |
+|<#999999> external system |
+|<#B3B3B3> external container |
+endlegend
+
+database "==Database\n//<size:12>[postgresql]</size>//\n\n Stores events data and user authentication info" <<container>> as db
+rectangle "==Mobile App\n//<size:12>[Container: React Native]</size>//\n\n Provides full set of Unicall functionalities to users via their mobile device" <<container>> as mobileApp
+rectangle "==Google Authentication API\n\n API to authenticate user login and/or subscription" <<external_system>> as gAuth
+rectangle "==API Application\n<size:12>[Container]</size>" <<boundary>> as api{
+  rectangle "==User Controller\n//<size:12>[Component: Spring MVC Rest Controller]</size>//" <<container>> as UserController
+  rectangle "==Notification Controller\n//<size:12>[Component: Spring MVC Rest Controller]</size>//" <<container>> as NotificationController
+  rectangle "==Event Controller\n//<size:12>[Component: Spring MVC Rest Controller]</size>//" <<container>> as EventController
+  rectangle "==Course Controller\n//<size:12>[Component: Spring MVC Rest Controller]</size>//" <<container>> as CourseController
+  
+  rectangle "==User Service\n//<size:12>[Component: Spring Service]</size>//" <<container>> as UserService
+  rectangle "==Notification Service\n//<size:12>[Component: Spring Service]</size>//" <<container>> as NotificationService
+  rectangle "==Event Service\n//<size:12>[Component: Spring Service]</size>//" <<container>> as EventService
+  rectangle "==Course Service\n//<size:12>[Component: Spring Service]</size>//" <<container>> as CourseService
+
+  rectangle "==User DAO\n//<size:12>[Component: Data Access Object]</size>//" <<container>> as UserDAO
+  rectangle "==Notification DAO\n//<size:12>[Component: Data Access Object]</size>//" <<container>> as NotificationDAO
+  rectangle "==Event DAO\n//<size:12>[Component: Data Access Object]</size>//" <<container>> as EventDAO
+  rectangle "==Course DAO\n//<size:12>[Component: Data Access Object]</size>//" <<container>> as CourseDAO
+  
+mobileApp - ->> UserController : **Makes API calls to**\n//<size:12>[JSON/HTTP]</size>//
+mobileApp - ->> NotificationController : **Makes API calls to**\n//<size:12>[JSON/HTTP]</size>//
+mobileApp - ->> EventController : **Makes API calls to**\n//<size:12>[JSON/HTTP]</size>//
+mobileApp - ->> CourseController : **Makes API calls to**\n//<size:12>[JSON/HTTP]</size>//
+
+UserController - ->> UserService : **Uses**
+NotificationController - ->> NotificationService : **Uses**
+EventController - ->> EventService : **Uses**
+CourseController - ->> CourseService : **Uses**
+    
+UserService - ->> UserDAO : **Uses**
+NotificationService - ->> NotificationDAO : **Uses**
+EventService - ->> EventDAO : **Uses**
+CourseService - ->> CourseDAO : **Uses**
+
+
+UserService - ->> CourseDAO : **Uses**
+NotificationService - ->> UserDAO : **Uses**
+EventService - ->> CourseDAO : **Uses**
+EventService - ->> UserDAO : **Uses**
+EventService - ->> NotificationDAO : **Uses**
+
+
+
+
+    
+mobileApp - ->> gAuth : **Makes API calls to**\n//<size:12>[JSON/HTTP]</size>//
+
+
+    
+    
+UserDAO - ->> db : **Reads from and writes to**\n//<size:12>[JDBC]</size>//
+NotificationDAO - ->> db : **Reads from and writes to**\n//<size:12>[JDBC]</size>//
+EventDAO - ->> db : **Reads from and writes to**\n//<size:12>[JDBC]</size>//
+CourseDAO - ->> db : **Reads from and writes to**\n//<size:12>[JDBC]</size>//
+}
+
+
+@enduml
+
+PlantUML version 1.2021.12(Tue Oct 05 13:01:58 BRT 2021)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: Cp1252
+Language: pt
+Country: BR
+--></g></svg>

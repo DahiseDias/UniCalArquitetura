@@ -48,7 +48,7 @@ Container_Boundary(api, "API Application"){
 
 
     
-    Rel(UserController, gAuth,"Makes API calls to", "JSON/HTTP")
+    Rel(mobileApp, gAuth,"Makes API calls to", "JSON/HTTP")
 
 
     

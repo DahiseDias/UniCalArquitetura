@@ -1,7 +1,7 @@
 {
 	"plantumlVersion": "latest",
 	"projectName": "Unical UPE",
-	"homepageName": "Overview",
+	"homepageName": "Context",
 	"rootFolder": "src",
 	"distFolder": "docs",
 	"generateMD": true,
