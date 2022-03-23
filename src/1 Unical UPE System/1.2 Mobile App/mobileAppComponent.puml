@@ -1,0 +1,34 @@
+@startuml
+!include https://raw.githubusercontent.com/adrianvlupu/C4-PlantUML/latest/C4_Container.puml
+
+LAYOUT_WITH_LEGEND()
+
+Container(api, "API", "Java(SpringBoot)", "Provides The Events functionality via JSON/HTTPS")
+System_Ext(gAuth, "Google Authentication API", "API to authenticate user login and/or subscription")
+Container_Boundary(mobileApp, "Mobile App"){
+    Container(appContext, "App Context", "Component: Context API", "")
+    Container(courseService, "Course Service", "Component: NodeJS HTTP Client", "")
+    Container(eventService, "Event Service", "Component: NodeJS HTTP Client", "")
+    Container(NotificationService, "Notification Service", "Component: NodeJS HTTP Client", "")
+    Container(userService, "User Service", "Component: NodeJS HTTP Client", "")
+
+    Container(screens, "Screens", "Component: Data Access Object", "")
+    Container(components, "Components", "Component: Data Access Object", "")
+
+    Rel(appContext, eventService, "Uses")
+    Rel(appContext, courseService, "Uses")
+    Rel(appContext, NotificationService, "Uses")
+    Rel(appContext, userService, "Uses")
+    Rel(screens, components, "Uses")
+    Rel(screens, appContext, "Uses")
+
+    Rel(courseService, api, "Makes API calls to", "JSON/HTTP")
+    Rel(eventService, api, "Makes API calls to", "JSON/HTTP")
+    Rel(NotificationService, api, "Makes API calls to", "JSON/HTTP")
+    Rel(userService, api, "Makes API calls to", "JSON/HTTP")
+    Rel(appContext, gAuth, "Uses")
+
+}
+
+
+@enduml
