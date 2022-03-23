@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="784px" preserveAspectRatio="none" style="width:1229px;height:784px;background:#FFFFFF;" version="1.1" viewBox="0 0 1229 784" width="1229px" zoomAndPan="magnify"><defs/><g><!--MD5=[c6c2aba023695044cf884404e1db2be1]
+cluster mobileApp--><rect fill="#FFFFFF" height="408" style="stroke:#444444;stroke-width:1.0;stroke-dasharray:7.0,7.0;" width="977" x="7" y="7"/><text fill="#444444" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="85" x="453" y="25.6094">Mobile App</text><text fill="#444444" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="63" x="464" y="41.582">[Container]</text><!--MD5=[57e69ea22e423c57d949b6982dca585c]
+entity appContext--><rect fill="#438DD5" height="55.2188" style="stroke:#3C7FC0;stroke-width:1.5;" width="162" x="537" y="193"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="95" x="570.5" y="219.6094">App Context</text><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="142" x="547" y="235.582">[Component: Context API]</text><!--MD5=[a13a31f0f5da7d9360368e82f5a621a4]
+entity courseService--><rect fill="#438DD5" height="55.2188" style="stroke:#3C7FC0;stroke-width:1.5;" width="210" x="23" y="344"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="117" x="69.5" y="370.6094">Course Service</text><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="190" x="33" y="386.582">[Component: NodeJS HTTP Client]</text><!--MD5=[a8375c2c28c67fd333828fda06b83ca0]
+entity eventService--><rect fill="#438DD5" height="55.2188" style="stroke:#3C7FC0;stroke-width:1.5;" width="210" x="268" y="344"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="105" x="320.5" y="370.6094">Event Service</text><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="190" x="278" y="386.582">[Component: NodeJS HTTP Client]</text><!--MD5=[4be23415307477b21fc2b4d45e2cc58d]
+entity NotificationService--><rect fill="#438DD5" height="55.2188" style="stroke:#3C7FC0;stroke-width:1.5;" width="210" x="513" y="344"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="148" x="544" y="370.6094">Notification Service</text><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="190" x="523" y="386.582">[Component: NodeJS HTTP Client]</text><!--MD5=[35e4e5ff99f313a282eea6e6613e2112]
+entity userService--><rect fill="#438DD5" height="55.2188" style="stroke:#3C7FC0;stroke-width:1.5;" width="210" x="758" y="344"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="97" x="814.5" y="370.6094">User Service</text><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="190" x="768" y="386.582">[Component: NodeJS HTTP Client]</text><!--MD5=[97e2b52e56d8731a894c457137dea717]
+entity screens--><rect fill="#438DD5" height="55.2188" style="stroke:#3C7FC0;stroke-width:1.5;" width="204" x="588" y="61"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="63" x="658.5" y="87.6094">Screens</text><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="184" x="598" y="103.582">[Component: Data Access Object]</text><!--MD5=[014726da6f1eaa453f1de628f8794056]
+entity components--><rect fill="#438DD5" height="55.2188" style="stroke:#3C7FC0;stroke-width:1.5;" width="204" x="734" y="193"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="99" x="786.5" y="219.6094">Components</text><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="184" x="744" y="235.582">[Component: Data Access Object]</text><!--MD5=[e2307af040e3f87d22824e7603ca28ec]
+entity api--><rect fill="#438DD5" height="108.0469" style="stroke:#3C7FC0;stroke-width:1.5;" width="205" x="392.5" y="510"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="26" x="482" y="536.6094">API</text><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="101" x="444.5" y="552.582">[Java(SpringBoot)]</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="0" x="497" y="569.752"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="131" x="429.5" y="587.3613">Provides The Events</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="185" x="402.5" y="604.9707">functionality via JSON/HTTPS</text><!--MD5=[cbbd59ab7442f0b5a82c52935d2d951c]
+entity gAuth--><rect fill="#999999" height="92.9531" style="stroke:#8A8A8A;stroke-width:1.5;" width="220" x="1003" y="325"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="200" x="1013" y="351.6094">Google Authentication API</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="0" x="1115" y="369.6582"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="185" x="1020.5" y="387.2676">API to authenticate user login</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="121" x="1052.5" y="404.877">and/or subscription</text><!--MD5=[8ca1689bbec47e6c99eb2888aaba0eaf]
+link appContext to eventService--><path d="M574.2,248.14 C532,273.8 468.19,312.61 423.79,339.61 " fill="none" id="appContext-to-eventService" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="416.83,343.84,425.2248,342.2503,422.1095,337.1224,416.83,343.84" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="29" x="525" y="291.457">Uses</text><!--MD5=[28fa8be8366a5da21417226d15049589]
+link appContext to courseService--><path d="M536.66,242.31 C461.7,261.97 347.63,293.12 250,325 C234.99,329.9 219.1,335.51 203.91,341.08 " fill="none" id="appContext-to-courseService" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="196.05,343.99,204.5939,344.0311,202.5142,338.4031,196.05,343.99" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="29" x="401" y="291.457">Uses</text><!--MD5=[8a469629ada1b6d815b351a11d235f6b]
+link appContext to NotificationService--><path d="M618,248.14 C618,272.54 618,308.81 618,335.53 " fill="none" id="appContext-to-NotificationService" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="618,343.84,621,335.84,615,335.84,618,343.84" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="29" x="619" y="291.457">Uses</text><!--MD5=[7aa95e37af8815d6bb9d9b3cb093b96a]
+link appContext to userService--><path d="M661.8,248.14 C704,273.8 767.81,312.61 812.21,339.61 " fill="none" id="appContext-to-userService" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="819.17,343.84,813.8905,337.1224,810.7752,342.2503,819.17,343.84" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="29" x="734" y="291.457">Uses</text><!--MD5=[b0e0f7b11450186b4c03f6f8dd1c3ba5]
+link screens to components--><path d="M719.9,116.12 C743.12,136.8 775.42,165.56 800.05,187.49 " fill="none" id="screens-to-components" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="806.14,192.91,802.1493,185.3552,798.1658,189.842,806.14,192.91" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="29" x="772" y="159.457">Uses</text><!--MD5=[9cdd894b447efdeb1de76e4ac3c308f4]
+link screens to appContext--><path d="M675.26,116.12 C664.09,136.28 648.68,164.1 636.66,185.81 " fill="none" id="screens-to-appContext" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="632.72,192.91,639.217,187.3613,633.9665,184.4574,632.72,192.91" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="29" x="659" y="159.457">Uses</text><!--MD5=[19ee8efdd58d4cb02db0866ff720ce31]
+link courseService to api--><path d="M169.64,399.11 C205.83,421.78 259.99,454.62 309,480 C333.15,492.51 359.58,504.99 384.73,516.33 " fill="none" id="courseService-to-api" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="392.14,519.66,386.0664,513.6507,383.6127,519.126,392.14,519.66" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="104" x="310" y="461.457">Makes API calls to</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="72" x="326" y="476.5508">[JSON/HTTP]</text><!--MD5=[eb2ee323c18dc5ce7b609508945016d8]
+link eventService to api--><path d="M390.22,399.39 C407.4,426.22 434.37,468.33 456.65,503.12 " fill="none" id="eventService-to-api" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="461.04,509.97,459.2554,501.6145,454.2014,504.8482,461.04,509.97" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="104" x="442" y="461.457">Makes API calls to</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="72" x="458" y="476.5508">[JSON/HTTP]</text><!--MD5=[8cf9580f257ba0f297aafb5868ab68a9]
+link NotificationService to api--><path d="M602.81,399.37 C590.2,421.35 571.55,453.07 554,480 C549.12,487.48 543.87,495.25 538.59,502.89 " fill="none" id="NotificationService-to-api" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="533.73,509.86,540.7662,505.0131,535.8443,501.5817,533.73,509.86" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="104" x="573" y="461.457">Makes API calls to</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="72" x="589" y="476.5508">[JSON/HTTP]</text><!--MD5=[0ce2274d338f748e02bbcb1bc6e0d492]
+link userService to api--><path d="M822.78,399.09 C787.48,421.9 734.37,454.95 686,480 C660.32,493.3 632.05,506.39 605.3,518.1 " fill="none" id="userService-to-api" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="597.8,521.37,606.3328,520.932,603.9408,515.4294,597.8,521.37" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="104" x="741" y="461.457">Makes API calls to</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="72" x="757" y="476.5508">[JSON/HTTP]</text><!--MD5=[d92e6cda5effa2bbc1c62491b2ab7434]
+link appContext to gAuth--><path d="M699.27,243.83 C790.03,268.89 931.13,308.22 984,325 C987.63,326.15 991.31,327.34 995.02,328.55 " fill="none" id="appContext-to-gAuth" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="1002.67,331.07,996.008,325.7204,994.1332,331.42,1002.67,331.07" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="29" x="879" y="291.457">Uses</text><rect fill="#FFFFFF" height="137.2656" rx="5" ry="5" style="stroke:#FFFFFF;stroke-width:1.0;" width="133" x="1074" y="631.0469"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="53" x="1080" y="652.5801">Legend</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="0" x="1137" y="652.5801"/><rect fill="#08427B" height="17.6094" style="stroke:none;stroke-width:1.0;" width="121" x="1080" y="655.6563"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="44" x="1084" y="670.1895">person</text><rect fill="#1168BD" height="17.6094" style="stroke:none;stroke-width:1.0;" width="121" x="1080" y="673.2656"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="44" x="1084" y="687.7988">system</text><rect fill="#438DD5" height="17.6094" style="stroke:none;stroke-width:1.0;" width="121" x="1080" y="690.875"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="59" x="1084" y="705.4082">container</text><rect fill="#686868" height="17.6094" style="stroke:none;stroke-width:1.0;" width="121" x="1080" y="708.4844"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="98" x="1084" y="723.0176">external person</text><rect fill="#999999" height="17.6094" style="stroke:none;stroke-width:1.0;" width="121" x="1080" y="726.0938"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="98" x="1084" y="740.627">external system</text><rect fill="#B3B3B3" height="17.6094" style="stroke:none;stroke-width:1.0;" width="121" x="1080" y="743.7031"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="113" x="1084" y="758.2363">external container</text><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="1080" x2="1201" y1="638.0469" y2="638.0469"/><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="1080" x2="1201" y1="655.6563" y2="655.6563"/><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="1080" x2="1201" y1="673.2656" y2="673.2656"/><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="1080" x2="1201" y1="690.875" y2="690.875"/><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="1080" x2="1201" y1="708.4844" y2="708.4844"/><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="1080" x2="1201" y1="726.0938" y2="726.0938"/><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="1080" x2="1201" y1="743.7031" y2="743.7031"/><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="1080" x2="1201" y1="761.3125" y2="761.3125"/><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="1080" x2="1080" y1="638.0469" y2="761.3125"/><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="1201" x2="1201" y1="638.0469" y2="761.3125"/><!--MD5=[8e2d0a48486350811f30791011650c9a]
+@startuml
+!include https://raw.githubusercontent.com/adrianvlupu/C4-PlantUML/latest/C4_Container.puml
+
+LAYOUT_WITH_LEGEND()
+
+Container(api, "API", "Java(SpringBoot)", "Provides The Events functionality via JSON/HTTPS")
+System_Ext(gAuth, "Google Authentication API", "API to authenticate user login and/or subscription")
+Container_Boundary(mobileApp, "Mobile App"){
+    Container(appContext, "App Context", "Component: Context API", "")
+    Container(courseService, "Course Service", "Component: NodeJS HTTP Client", "")
+    Container(eventService, "Event Service", "Component: NodeJS HTTP Client", "")
+    Container(NotificationService, "Notification Service", "Component: NodeJS HTTP Client", "")
+    Container(userService, "User Service", "Component: NodeJS HTTP Client", "")
+
+    Container(screens, "Screens", "Component: Data Access Object", "")
+    Container(components, "Components", "Component: Data Access Object", "")
+
+    Rel(appContext, eventService, "Uses")
+    Rel(appContext, courseService, "Uses")
+    Rel(appContext, NotificationService, "Uses")
+    Rel(appContext, userService, "Uses")
+    Rel(screens, components, "Uses")
+    Rel(screens, appContext, "Uses")
+
+    Rel(courseService, api, "Makes API calls to", "JSON/HTTP")
+    Rel(eventService, api, "Makes API calls to", "JSON/HTTP")
+    Rel(NotificationService, api, "Makes API calls to", "JSON/HTTP")
+    Rel(userService, api, "Makes API calls to", "JSON/HTTP")
+    Rel(appContext, gAuth, "Uses")
+
+}
+
+
+@enduml
+
+@startuml
+
+
+
+
+
+skinparam defaultTextAlignment center
+
+skinparam wrapWidth 200
+skinparam maxMessageSize 150
+
+skinparam LegendBorderColor transparent
+skinparam LegendBackgroundColor transparent
+skinparam LegendFontColor #FFFFFF
+
+skinparam rectangle {
+    StereotypeFontSize 12
+    shadowing false
+}
+
+skinparam database {
+    StereotypeFontSize 12
+    shadowing false
+}
+
+skinparam queue {
+    StereotypeFontSize 12
+    shadowing false
+}
+
+skinparam Arrow {
+    Color #666666
+    FontColor #666666
+    FontSize 12
+}
+
+skinparam rectangle<<boundary>> {
+    Shadowing false
+    StereotypeFontSize 0
+    FontColor #444444
+    BorderColor #444444
+    BorderStyle dashed
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+skinparam rectangle<<person>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #08427B
+    BorderColor #073B6F
+}
+
+skinparam rectangle<<external_person>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #686868
+    BorderColor #8A8A8A
+}
+
+skinparam rectangle<<system>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #1168BD
+    BorderColor #3C7FC0
+}
+
+skinparam rectangle<<external_system>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #999999
+    BorderColor #8A8A8A
+}
+
+sprite $person [48x48/16] {
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+0000000000000000000049BCCA7200000000000000000000
+0000000000000000006EFFFFFFFFB3000000000000000000
+00000000000000001CFFFFFFFFFFFF700000000000000000
+0000000000000001EFFFFFFFFFFFFFF80000000000000000
+000000000000000CFFFFFFFFFFFFFFFF6000000000000000
+000000000000007FFFFFFFFFFFFFFFFFF100000000000000
+00000000000001FFFFFFFFFFFFFFFFFFF900000000000000
+00000000000006FFFFFFFFFFFFFFFFFFFF00000000000000
+0000000000000BFFFFFFFFFFFFFFFFFFFF40000000000000
+0000000000000EFFFFFFFFFFFFFFFFFFFF70000000000000
+0000000000000FFFFFFFFFFFFFFFFFFFFF80000000000000
+0000000000000FFFFFFFFFFFFFFFFFFFFF80000000000000
+0000000000000DFFFFFFFFFFFFFFFFFFFF60000000000000
+0000000000000AFFFFFFFFFFFFFFFFFFFF40000000000000
+00000000000006FFFFFFFFFFFFFFFFFFFE00000000000000
+00000000000000EFFFFFFFFFFFFFFFFFF800000000000000
+000000000000007FFFFFFFFFFFFFFFFFF100000000000000
+000000000000000BFFFFFFFFFFFFFFFF5000000000000000
+0000000000000001DFFFFFFFFFFFFFF70000000000000000
+00000000000000000BFFFFFFFFFFFF500000000000000000
+0000000000000000005DFFFFFFFFA1000000000000000000
+0000000000000000000037ABB96100000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000025788300000000005886410000000000000
+000000000007DFFFFFFD9643347BFFFFFFFB400000000000
+0000000004EFFFFFFFFFFFFFFFFFFFFFFFFFFB1000000000
+000000007FFFFFFFFFFFFFFFFFFFFFFFFFFFFFD200000000
+00000006FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFE10000000
+0000003FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB0000000
+000000BFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF5000000
+000003FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFD000000
+000009FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF200000
+00000DFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF600000
+00000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF800000
+00001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFA00000
+00001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB00000
+00001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB00000
+00001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB00000
+00001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFA00000
+00000EFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF700000
+000006FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFE100000
+0000008FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFD3000000
+000000014555555555555555555555555555555300000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+skinparam rectangle<<container>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #438DD5
+    BorderColor #3C7FC0
+}
+
+skinparam database<<container>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #438DD5
+    BorderColor #3C7FC0
+}
+
+skinparam queue<<container>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #438DD5
+    BorderColor #3C7FC0
+}
+
+skinparam rectangle<<external_container>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #B3B3B3
+    BorderColor #A6A6A6
+}
+
+skinparam database<<external_container>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #B3B3B3
+    BorderColor #A6A6A6
+}
+
+skinparam queue<<external_container>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #B3B3B3
+    BorderColor #A6A6A6
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+hide stereotype
+legend right
+|<color:#000000>**Legend**</color> |
+|<#08427B> person |
+|<#1168BD> system |
+|<#438DD5> container |
+|<#686868> external person |
+|<#999999> external system |
+|<#B3B3B3> external container |
+endlegend
+
+rectangle "==API\n//<size:12>[Java(SpringBoot)]</size>//\n\n Provides The Events functionality via JSON/HTTPS" <<container>> as api
+rectangle "==Google Authentication API\n\n API to authenticate user login and/or subscription" <<external_system>> as gAuth
+rectangle "==Mobile App\n<size:12>[Container]</size>" <<boundary>> as mobileApp{
+    rectangle "==App Context\n//<size:12>[Component: Context API]</size>//" <<container>> as appContext
+    rectangle "==Course Service\n//<size:12>[Component: NodeJS HTTP Client]</size>//" <<container>> as courseService
+    rectangle "==Event Service\n//<size:12>[Component: NodeJS HTTP Client]</size>//" <<container>> as eventService
+    rectangle "==Notification Service\n//<size:12>[Component: NodeJS HTTP Client]</size>//" <<container>> as NotificationService
+    rectangle "==User Service\n//<size:12>[Component: NodeJS HTTP Client]</size>//" <<container>> as userService
+
+    rectangle "==Screens\n//<size:12>[Component: Data Access Object]</size>//" <<container>> as screens
+    rectangle "==Components\n//<size:12>[Component: Data Access Object]</size>//" <<container>> as components
+
+appContext - ->> eventService : **Uses**
+appContext - ->> courseService : **Uses**
+appContext - ->> NotificationService : **Uses**
+appContext - ->> userService : **Uses**
+screens - ->> components : **Uses**
+screens - ->> appContext : **Uses**
+
+courseService - ->> api : **Makes API calls to**\n//<size:12>[JSON/HTTP]</size>//
+eventService - ->> api : **Makes API calls to**\n//<size:12>[JSON/HTTP]</size>//
+NotificationService - ->> api : **Makes API calls to**\n//<size:12>[JSON/HTTP]</size>//
+userService - ->> api : **Makes API calls to**\n//<size:12>[JSON/HTTP]</size>//
+appContext - ->> gAuth : **Uses**
+
+}
+
+
+@enduml
+
+PlantUML version 1.2021.12(Tue Oct 05 13:01:58 BRT 2021)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: Cp1252
+Language: pt
+Country: BR
+--></g></svg>
