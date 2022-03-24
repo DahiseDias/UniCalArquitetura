@@ -1,0 +1,18 @@
+@startuml
+!include https://raw.githubusercontent.com/adrianvlupu/C4-PlantUML/latest/C4_Container.puml
+
+
+class EventController
+class EventService
+class EventDAO
+class CourseDAO
+class NotificationDAO
+class UserDAO
+
+EventController --> EventService
+EventService --> EventDAO
+EventService --> CourseDAO
+EventService --> NotificationDAO
+EventService --> UserDAO
+
+@enduml
