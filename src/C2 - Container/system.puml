@@ -2,6 +2,11 @@
 !include https://raw.githubusercontent.com/adrianvlupu/C4-PlantUML/latest/C4_Container.puml
 
 LAYOUT_WITH_LEGEND()
+LAYOUT_LEFT_RIGHT()
+skinparam backgroundcolor transparent
+skinparam ArrowFontColor lightGray
+skinparam ArrowColor lightGray
+skinparam BoundaryBorderColor red
 
 Person(upeStudent, "UPE Student", "A student of UPE, with Unical account" )
 System_Ext(gAuth, "Google Authentication API", "API to authenticate user login and/or subscription")
@@ -15,5 +20,5 @@ System_Boundary(unical, "Unical UPE System"){
 }
 
 Rel(upeStudent, unical,"Uses", "HTTP")
-Rel(unical, gAuth, "Authenticate user", "HTTP")
+Rel(mobileApp, gAuth, "Authenticate user", "HTTP")
 @enduml

@@ -1,6 +1,10 @@
 @startuml
 !include https://raw.githubusercontent.com/adrianvlupu/C4-PlantUML/latest/C4_Container.puml
 
+LAYOUT_LEFT_RIGHT()
+skinparam backgroundcolor transparent
+skinparam ArrowFontColor lightGray
+skinparam ArrowColor lightGray
 
 class EventController
 class EventService

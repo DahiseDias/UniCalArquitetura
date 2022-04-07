@@ -2,6 +2,10 @@
 !include https://raw.githubusercontent.com/adrianvlupu/C4-PlantUML/latest/C4_Container.puml
 
 LAYOUT_WITH_LEGEND()
+LAYOUT_LEFT_RIGHT()
+skinparam backgroundcolor transparent
+skinparam ArrowFontColor lightGray
+skinparam ArrowColor lightGray
 
 ContainerDb(db, "Database", "postgresql", "Stores events data and user authentication info")
 Container(mobileApp, "Mobile App", "Container: React Native", "Provides full set of Unicall functionalities to users via their mobile device")

@@ -2,6 +2,10 @@
 !include https://raw.githubusercontent.com/adrianvlupu/C4-PlantUML/latest/C4_Container.puml
 
 LAYOUT_WITH_LEGEND()
+LAYOUT_LEFT_RIGHT()
+skinparam backgroundcolor transparent
+skinparam ArrowFontColor lightGray
+skinparam ArrowColor lightGray
 
 Container(api, "API", "Java(SpringBoot)", "Provides The Events functionality via JSON/HTTPS")
 System_Ext(gAuth, "Google Authentication API", "API to authenticate user login and/or subscription")
