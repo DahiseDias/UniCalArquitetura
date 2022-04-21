@@ -1,31 +1,31 @@
 # Documentação
 
 
-### Overview 
+## **Overview**
 
-##### Nesta seção você encontrará todas as informações pertinentes sobre o UniCal UPE, assim como a estrutura da documentação.
+**Nesta seção você encontrará todas as informações pertinentes sobre o UniCal UPE, assim como a estrutura da documentação.**
 
-### Estrutura da documentação
+### **Estrutura da documentação**
 
 1. Home 
    
 2. Requisitos
    1. Requisitos Gerais
    2. Requisitos Arquiteturais
-3. Deploy
-   1. Requisitos do sistema
-   2. Instalação
-4. Componentes
+3. Dependências
    1. Frameworks
    2. Bibliotecas
+4. Deploy
+   1. Requisitos do sistema
+   2. Instalação
 5. UI - Interface com o usuario
-6. C4Model
+6. Arquitetura-C4
    1. C1 - Contexto
    2. C2 - Container
    3. C3 - Componentes
    4. C4 - Codigo
 
-### O que é o UnicalUPE?
+### **O que é o UnicalUPE?**
 
 O UnicalUPE é uma aplicação mobile desenvolvido para os estudantes da UPE-Garanhuns. Nele é possível, acompanhar e divulgar eventos da universidade e datas importantes do calendário acadêmico para toda a comunidade acadêmica. Entre suas principais funcionalidades estão:
 
@@ -45,7 +45,7 @@ O uso do UnicalUPE traz diversas vantagens, como: <br>
     <li> Se manter atualizado quando à mudanças </li>
 </ul>
 
-### Como o projeto foi criado?
+### **Como o projeto foi criado?**
 
 O projeto foi idealizado e desenvolvido na cadeira de Projeto I em conjunto com a cadeira de Programação Mobile e Gerência de Projetos.
 
@@ -65,7 +65,7 @@ O projeto foi desenvolvido seguindo as seguintes etapas:
   - Front-end
 - Testes funcionais
 
-### Requisitos
+### **Requisitos de ambiente**
 
 Para usar o UnicalUPE, é necessário:
 <ul>
