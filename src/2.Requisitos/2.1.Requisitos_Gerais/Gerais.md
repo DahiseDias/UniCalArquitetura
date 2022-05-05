@@ -88,7 +88,7 @@
 
 ### **2.1.2 Requisitos Não-Funcionais**
 
-
+**O sistema deve:**
 <table>
   <tr>
     <th>RN</th>
@@ -130,6 +130,12 @@
     <td>RN-006</td>
     <td>Restringir usuários, não autorizados, de fazer alterações no sistema</td>
     <td>Usuários só podem modificar seus próprios dados ou eventos criados pelo mesmo.</td>
+    <td>Essencial</td>
+  </tr>
+  <tr>
+    <td>RN-007</td>
+    <td>Autenticação pelo google</td>
+    <td>Deve permitir cadastros por meio da API do Google</td>
     <td>Essencial</td>
   </tr>
 </table>
