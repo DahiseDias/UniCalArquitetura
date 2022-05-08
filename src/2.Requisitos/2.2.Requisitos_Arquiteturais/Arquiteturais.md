@@ -74,7 +74,7 @@
     </tr>
     <tr>
         <td>RA-008</td>
-        <td></td>
+        <td>RN-008</td>
         <td>Arquitetura Server-Client</td>
         <td>Spring + ReactNative</td>
         <td>Manutenibilidade</td>
