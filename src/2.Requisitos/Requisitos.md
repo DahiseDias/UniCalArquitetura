@@ -20,3 +20,7 @@ No processo de priorização dos requisitos, a técnica utilizada consiste na ad
 **Importante** é aquele requisito que é extremamente relevante para o sistema, mas que caso falte ainda permite que o sistema entre em execução, mas cumprindo parcialmente seus objetivos ou procedimentos, na maioria das vezes de forma insatisfatória. Esses requisitos devem ser implementados, mas, caso não sejam, o sistema pode ser implantado da forma como está.
 
 **Desejável** é aquele requisito que não compromete as funcionalidades da base do sistema, dessa forma, permitindo a execução do mesmo de forma satisfatória. Esses requisitos podem ser deixados para versões futuras do software, de modo que ele seja introduzido como uma feature em um pacote de atualização. 
+
+## 2.4 Manutenção do sistema
+
+Esta sessão contém como deve ser feita a manutenção da arquitertura para que ela se mantenha aderente durante todo o ciclo de vida
