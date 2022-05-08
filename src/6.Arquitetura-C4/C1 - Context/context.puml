@@ -10,11 +10,17 @@ skinparam ArrowColor lightGray
 
 
 
-Person(upeStudent, "UPE Student", "A student of UPE, with Unical account")
-System(unical, "Unical UPE System", "Allow users to view, manage and share information about university events")
-System_Ext(gAuth, "Google Authentication API", "API to authenticate user login and/or subscription")
+Person(upeStudent, "Estudante da UPE", "Um estudante da UPE que possua uma conta no UnicalUPE")
+Person(upeProfessor, "Professor da UPE", "Um professor da UPE que possua uma conta no UnicalUPE")
+System(unical, "Sistema Unical UPE", "Permite que os usuários visualizem, gerenciem e compartilhem informações sobre eventos universitários")
+System_Ext(gAuth, "Google Authentication API", "API para autenticação, login e cadastro")
+System_Ext(Expo, "Expo", "Ferramenta utilizada no desenvolvimento mobile que permite acesso as diversas APIs desenvolvidas pelo expo.com")
+System_Ext(Heroku, "Heroku", "Heroku é uma plataforma de nuvem como serviço onde é possivel hospedar projetos")
 
 
-Rel(upeStudent, unical,"Uses", "HTTP")
-Rel(unical, gAuth, "Authenticate user", "HTTP")
+Rel(upeStudent, unical,"Usa")
+Rel(upeProfessor, unical,"Usa")
+Rel(unical, gAuth, "Atenticação", "HTTP")
+Rel(unical, Expo, "Usa")
+Rel(unical, Heroku, "Hospedado por")
 @enduml
