@@ -6,6 +6,7 @@
   * [2.Requisitos](../../../../2.Requisitos/README.md)
     * [2.1.Requisitos_Gerais](../../../../2.Requisitos/2.1.Requisitos_Gerais/README.md)
     * [2.2.Requisitos_Arquiteturais](../../../../2.Requisitos/2.2.Requisitos_Arquiteturais/README.md)
+  * [3.Manutenção do sistema](../../../../3.Manuten%C3%A7%C3%A3o%20do%20sistema/README.md)
   * [6.Arquitetura-C4](../../../../6.Arquitetura-C4/README.md)
     * [C1 - Context](../../../../6.Arquitetura-C4/C1%20-%20Context/README.md)
     * [C2 - Container](../../../../6.Arquitetura-C4/C2%20-%20Container/README.md)

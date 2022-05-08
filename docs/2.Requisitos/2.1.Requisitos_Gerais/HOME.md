@@ -140,4 +140,10 @@
     <td>Deve permitir cadastros por meio da API do Google</td>
     <td>Essencial</td>
   </tr>
+  <tr>
+    <td>RN-008</td>
+    <td>Ser uma aplicação Mobile</td>
+    <td>A aplicação deve ter suporte para Android</td>
+    <td>Essencial</td>
+  </tr>
 </table>

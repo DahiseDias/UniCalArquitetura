@@ -2,6 +2,7 @@
   * [2.Requisitos](2.Requisitos/HOME)
     * [2.1.Requisitos_Gerais](2.Requisitos/2.1.Requisitos_Gerais/HOME)
     * [2.2.Requisitos_Arquiteturais](2.Requisitos/2.2.Requisitos_Arquiteturais/HOME)
+  * [3.Manutenção do sistema](3.Manuten%C3%A7%C3%A3o%20do%20sistema/HOME)
   * [6.Arquitetura-C4](6.Arquitetura-C4/HOME)
     * [C1 - Context](6.Arquitetura-C4/C1%20-%20Context/HOME)
     * [C2 - Container](6.Arquitetura-C4/C2%20-%20Container/HOME)

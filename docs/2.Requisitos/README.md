@@ -6,6 +6,7 @@
   * [**2.Requisitos**](../2.Requisitos/README.md)
     * [2.1.Requisitos_Gerais](../2.Requisitos/2.1.Requisitos_Gerais/README.md)
     * [2.2.Requisitos_Arquiteturais](../2.Requisitos/2.2.Requisitos_Arquiteturais/README.md)
+  * [3.Manutenção do sistema](../3.Manuten%C3%A7%C3%A3o%20do%20sistema/README.md)
   * [6.Arquitetura-C4](../6.Arquitetura-C4/README.md)
     * [C1 - Context](../6.Arquitetura-C4/C1%20-%20Context/README.md)
     * [C2 - Container](../6.Arquitetura-C4/C2%20-%20Container/README.md)
@@ -48,3 +49,7 @@ No processo de priorização dos requisitos, a técnica utilizada consiste na ad
 **Importante** é aquele requisito que é extremamente relevante para o sistema, mas que caso falte ainda permite que o sistema entre em execução, mas cumprindo parcialmente seus objetivos ou procedimentos, na maioria das vezes de forma insatisfatória. Esses requisitos devem ser implementados, mas, caso não sejam, o sistema pode ser implantado da forma como está.
 
 **Desejável** é aquele requisito que não compromete as funcionalidades da base do sistema, dessa forma, permitindo a execução do mesmo de forma satisfatória. Esses requisitos podem ser deixados para versões futuras do software, de modo que ele seja introduzido como uma feature em um pacote de atualização. 
+
+## 2.4 Manutenção do sistema
+
+Esta sessão contém como deve ser feita a manutenção da arquitertura para que ela se mantenha aderente durante todo o ciclo de vida

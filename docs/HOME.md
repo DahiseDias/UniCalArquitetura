@@ -47,6 +47,7 @@ O uso do UnicalUPE traz diversas vantagens, como: <br>
 
 ### **Como o projeto foi criado?**
 
+**Processo de Desenvolvimento:**
 O projeto foi idealizado e desenvolvido na cadeira de Projeto I em conjunto com a cadeira de Programação Mobile e Gerência de Projetos.
 
 O projeto foi desenvolvido seguindo as seguintes etapas:
@@ -64,6 +65,26 @@ O projeto foi desenvolvido seguindo as seguintes etapas:
   - Back-end
   - Front-end
 - Testes funcionais
+
+**Tecnologias Utilizadas:**
+
+- Front-End
+  - React Native
+  - TypeScript
+  - Expo
+  - Axios
+  - Bibliotecas:
+    - Async-storage
+    - DateTimePicker
+    - Bottom-tabs
+
+- Back-End
+  - Java
+  - Spring boot
+  - Spring JPA
+  - Lombok
+  - Swagger
+  - Postgress
 
 ### **Requisitos de ambiente**
 
