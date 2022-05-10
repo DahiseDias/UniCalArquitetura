@@ -11,17 +11,23 @@ skinparam BoundaryBorderColor red
 skinparam DefaultFontColor white
 
 
-Person(upeStudent, "UPE Student", "A student of UPE, with Unical account" )
-System_Ext(gAuth, "Google Authentication API", "API to authenticate user login and/or subscription")
-System_Boundary(unical, "Unical UPE System"){
-  Container(mobileApp, "Mobile App", "React Native", "Provides full set of Unicall functionalities to users via their mobile device")
-  Container(api, "API", "Java(SpringBoot)", "Provides The Events functionality via JSON/HTTPS")
-  ContainerDb(db, "Database", "postgresql", "Stores events data and user authentication info")
+Person(upeStudent, "Estudante da UPE", "Um estudante da UPE que possua uma conta no UnicalUPE")
+Person(upeProfessor, "Professor da UPE", "Um professor da UPE que possua uma conta no UnicalUPE")
+System_Ext(gAuth, "Google Authentication API", "API para autenticação, login e cadastro")
+System_Ext(Expo, "Expo", "Ferramenta utilizada no desenvolvimento mobile que permite acesso as diversas APIs desenvolvidas pelo expo.com")
+System_Ext(Heroku, "Heroku", "Heroku é uma plataforma de nuvem como serviço onde é possivel hospedar projetos")
+System_Boundary(unical, "Sistema Unical UPE"){
+  Container(mobileApp, "Mobile App", "React Native", "Fornece um conjunto completo de funcionalidades do Unicall aos usuários por meio de seu dispositivo móvel")
+  Container(api, "API", "Java(SpringBoot)", "Contém a lógica do sistema e de comunição com o banco de dados")
+  ContainerDb(db, "Database", "postgresql", "Armazena dados dos Eventos, Notificações e dados de autenticação do usuário")
   
-  Rel(mobileApp, api, "Uses", "JSON/HTTPS")
-  Rel(api, db, "Reads & writes to", "JDBC")
+  Rel(mobileApp, api, "Usa", "JSON/API CALL")
+  Rel(api, db, "lê e escreve do/no", "JDBC")
 }
 
-Rel(upeStudent, unical,"Uses", "HTTP")
-Rel(mobileApp, gAuth, "Authenticate user", "HTTP")
+Rel(upeStudent, unical,"Usa")
+Rel(upeProfessor, unical,"Usa")
+Rel(mobileApp, gAuth, "Autenticação", "HTTP")
+Rel(api, Heroku, "é hospedado no")
+Rel(mobileApp, Expo, "usa")
 @enduml

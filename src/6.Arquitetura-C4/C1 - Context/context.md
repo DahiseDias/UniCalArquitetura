@@ -1,4 +1,4 @@
-## **Nível 1: Diagrama de contexto do sistema**
+### **Nível 1: Diagrama de contexto do sistema**
 
 Um diagrama de contexto do sistema é um bom ponto de partida para entender o software, permitindo que você retroceda e veja o quadro geral, o contexto em que o sistema está inserido. Abaixo você encontrará o diagrama de contexto mostrando o Unical como uma caixa no centro, cercada por seus usuários e outros sistemas com os quais ele interage.
 
@@ -15,16 +15,16 @@ Os detalhes não são importantes aqui, pois esta é a sua visualização com zo
 
 
 
-## Personas
+### Personas
 
 **Estudantes da UPE**: Estudantes da UPE-Campus Garanhuns a qual o sistema foi desenvolvido.
 
 **Professores da UPE**: Professores da UPE-Campus Garanhuns a qual o sistema foi desenvolvido.
 
-## Sistema central
+### Sistema central
 O UnicalUPE é uma aplicação mobile desenvolvido para os estudantes e professores da UPE-Garanhuns. Nele é possível, acompanhar e divulgar eventos da universidade e datas importantes do calendário acadêmico para toda a comunidade acadêmica. 
 
-## Sistemas Externos
+### Sistemas Externos
 
 **Google Authentication API**: Google Authenticator é um software de token que implementa serviços de verificação de duas etapas usando Algoritmo de Osne-time Password baseado em tempo e Algoritmo de One-time Password baseado em HMAC para autenticar usuários.
 
