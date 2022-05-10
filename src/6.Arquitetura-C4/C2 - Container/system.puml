@@ -3,7 +3,7 @@
 
 
 LAYOUT_WITH_LEGEND()
-LAYOUT_LEFT_RIGHT()
+' LAYOUT_LEFT_RIGHT()
 skinparam backgroundcolor transparent
 skinparam ArrowFontColor lightGray
 skinparam ArrowColor lightGray
@@ -29,5 +29,6 @@ Rel(upeStudent, unical,"Usa")
 Rel(upeProfessor, unical,"Usa")
 Rel(mobileApp, gAuth, "Autenticação", "HTTP")
 Rel(api, Heroku, "é hospedado no")
+Rel(db, Heroku, "é hospedado no")
 Rel(mobileApp, Expo, "usa")
 @enduml

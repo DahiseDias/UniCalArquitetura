@@ -2,14 +2,16 @@
 !include https://raw.githubusercontent.com/adrianvlupu/C4-PlantUML/latest/C4_Container.puml
 
 LAYOUT_WITH_LEGEND()
-LAYOUT_LEFT_RIGHT()
+' LAYOUT_LEFT_RIGHT()
 skinparam backgroundcolor transparent
 skinparam ArrowFontColor lightGray
 skinparam ArrowColor lightGray
 
-ContainerDb(db, "Database", "postgresql", "Stores events data and user authentication info")
-Container(mobileApp, "Mobile App", "Container: React Native", "Provides full set of Unicall functionalities to users via their mobile device")
-System_Ext(gAuth, "Google Authentication API", "API to authenticate user login and/or subscription")
+ContainerDb(db, "Database", "postgresql", "Armazena dados dos Eventos, Notificações e dados de autenticação do usuário")
+Container(mobileApp, "Mobile App", "Container: React Native", "Fornece um conjunto completo de funcionalidades do Unicall aos usuários por meio de seu dispositivo móvel")
+System_Ext(gAuth, "Google Authentication API", "API para autenticação, login e cadastro")
+
+System_Ext(Heroku, "Heroku", "Heroku é uma plataforma de nuvem como serviço onde é possivel hospedar projetos")
 Container_Boundary(api, "API Application"){
   Container(UserController, "User Controller", "Component: Spring MVC Rest Controller", "")
   Container(NotificationController, "Notification Controller", "Component: Spring MVC Rest Controller", "")
@@ -26,42 +28,43 @@ Container_Boundary(api, "API Application"){
   Container(EventDAO, "Event DAO", "Component: Data Access Object", "")
   Container(CourseDAO, "Course DAO", "Component: Data Access Object", "")
   
-    Rel(mobileApp, UserController, "Makes API calls to", "JSON/HTTP")
-    Rel(mobileApp, NotificationController, "Makes API calls to", "JSON/HTTP")
-    Rel(mobileApp, EventController, "Makes API calls to", "JSON/HTTP")
-    Rel(mobileApp, CourseController, "Makes API calls to","JSON/HTTP")
+    Rel(mobileApp, UserController, "Faz uma requisição a", "JSON/HTTP")
+    Rel(mobileApp, NotificationController, "Faz uma requisição a", "JSON/HTTP")
+    Rel(mobileApp, EventController, "Faz uma requisição a", "JSON/HTTP")
+    Rel(mobileApp, CourseController, "Faz uma requisição a","JSON/HTTP")
 
-    Rel(UserController, UserService ,"Uses")
-    Rel(NotificationController, NotificationService ,"Uses" )
-    Rel(EventController, EventService ,"Uses")
-    Rel(CourseController, CourseService ,"Uses")
+    Rel(UserController, UserService ,"Usa")
+    Rel(NotificationController, NotificationService ,"Usa" )
+    Rel(EventController, EventService ,"Usa")
+    Rel(CourseController, CourseService ,"Usa")
     
-    Rel(UserService, UserDAO ,"Uses")
-    Rel(NotificationService, NotificationDAO ,"Uses")
-    Rel(EventService, EventDAO ,"Uses")
-    Rel(CourseService, CourseDAO ,"Uses")
+    Rel(UserService, UserDAO ,"Usa")
+    Rel(NotificationService, NotificationDAO ,"Usa")
+    Rel(EventService, EventDAO ,"Usa")
+    Rel(CourseService, CourseDAO ,"Usa")
 
 
-    Rel(UserService, CourseDAO ,"Uses")
-    Rel(NotificationService, UserDAO ,"Uses")
-    Rel(EventService, CourseDAO ,"Uses")
-    Rel(EventService, UserDAO ,"Uses")
-    Rel(EventService, NotificationDAO ,"Uses")
+    Rel(UserService, CourseDAO ,"Usa")
+    Rel(NotificationService, UserDAO ,"Usa")
+    Rel(EventService, CourseDAO ,"Usa")
+    Rel(EventService, UserDAO ,"Usa")
+    Rel(EventService, NotificationDAO ,"Usa")
 
 
-
-
-    
-    Rel(mobileApp, gAuth,"Makes API calls to", "JSON/HTTP")
 
 
     
+    Rel(mobileApp, gAuth,"Faz uma requisição a", "JSON/HTTP")
+
+
     
-    Rel(UserDAO, db, "Reads from and writes to", "JDBC")
-    Rel(NotificationDAO, db, "Reads from and writes to", "JDBC")
-    Rel(EventDAO, db, "Reads from and writes to", "JDBC")
-    Rel(CourseDAO, db, "Reads from and writes to", "JDBC")
+    
+    Rel(UserDAO, db, "lê e escreve do/no", "JDBC")
+    Rel(NotificationDAO, db, "lê e escreve do/no", "JDBC")
+    Rel(EventDAO, db, "lê e escreve do/no", "JDBC")
+    Rel(CourseDAO, db, "lê e escreve do/no", "JDBC")
 }
 
-
+Rel(api, Heroku ,"Usa")
+Rel(db, Heroku ,"Usa")
 @enduml
