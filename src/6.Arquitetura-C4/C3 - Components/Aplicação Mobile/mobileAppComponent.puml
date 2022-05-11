@@ -7,30 +7,32 @@ skinparam backgroundcolor transparent
 skinparam ArrowFontColor lightGray
 skinparam ArrowColor lightGray
 
-Container(api, "API", "Java(SpringBoot)", "Provides The Events functionality via JSON/HTTPS")
-System_Ext(gAuth, "Google Authentication API", "API to authenticate user login and/or subscription")
+Container(api, "API", "Java(SpringBoot)", "Contém a lógica do sistema e de comunição com o banco de dados")
+System_Ext(gAuth, "Google Authentication API", "API para autenticação, login e cadastro")
+System_Ext(Expo, "Expo", "Ferramenta utilizada no desenvolvimento mobile que permite acesso as diversas APIs desenvolvidas pelo expo.com")
 Container_Boundary(mobileApp, "Mobile App"){
-    Container(appContext, "App Context", "Component: Context API", "Responsible for manage, centralize and share all the services between the screens.     It is also responsible for the application initialization, comunicate with google authentication API, store user state, fill the event calendar and call services to update data.")
-    Container(courseService, "Course Service", "Component: NodeJS HTTP Client", "Connects to API to get courses information")
-    Container(eventService, "Event Service", "Component: NodeJS HTTP Client", "Connects to API and manages events information (CRUD)")
-    Container(NotificationService, "Notification Service", "Component: NodeJS HTTP Client", "Connects to API to get notifications information")
-    Container(userService, "User Service", "Component: NodeJS HTTP Client", "Connects to API sending and retrivieng user information")
+    Container(appContext, "App Context", "Component: Context API", "Responsável por gerenciar, centralizar e compartilhar todos os serviços entre as telas. Também é responsável pela inicialização do aplicativo, comunicar-se com a API de autenticação do google, armazenar o estado do usuário, preencher o calendário de eventos e chamar serviços para atualização de dados.")
+    Container(courseService, "Course Service", "Component: NodeJS HTTP Client", "Conecta-se à API para obter informações dos cursos")
+    Container(eventService, "Event Service", "Component: NodeJS HTTP Client", "Conecta-se à API e gerencia informações de eventos (CRUD)")
+    Container(NotificationService, "Notification Service", "Component: NodeJS HTTP Client", "Conecta-se à API para obter informações de notificação")
+    Container(userService, "User Service", "Component: NodeJS HTTP Client", "Conecta com a API enviando e recebendo dados do usuario")
 
-    Container(screens, "Screens", "Component: React Native JSX Views", "Contains the application screens")
-    Container(components, "Components", "Component: React Native JSX", "Contains components that compose screens")
+    Container(screens, "Telas", "Component: React Native JSX Views", "Contém as telas da aplicação, a interface grafica do sistema")
+    Container(components, "Componentes", "Component: React Native JSX", "Contém os componentes que formam as telas do sistema")
 
-    Rel(appContext, eventService, "Uses")
-    Rel(appContext, courseService, "Uses")
-    Rel(appContext, NotificationService, "Uses")
-    Rel(appContext, userService, "Uses")
-    Rel(screens, components, "Uses")
-    Rel(screens, appContext, "Uses")
+    Rel(appContext, eventService, "Usa")
+    Rel(appContext, courseService, "Usa")
+    Rel(appContext, NotificationService, "Usa")
+    Rel(appContext, userService, "Usa")
+    Rel(screens, components, "Usa")
+    Rel(screens, appContext, "Usa")
 
-    Rel(courseService, api, "Makes API calls to", "JSON/HTTP")
-    Rel(eventService, api, "Makes API calls to", "JSON/HTTP")
-    Rel(NotificationService, api, "Makes API calls to", "JSON/HTTP")
-    Rel(userService, api, "Makes API calls to", "JSON/HTTP")
-    Rel(appContext, gAuth, "Uses")
+    Rel(courseService, api, "Faz uma requisição a", "JSON/HTTP")
+    Rel(eventService, api, "Faz uma requisição a", "JSON/HTTP")
+    Rel(NotificationService, api, "Faz uma requisição a", "JSON/HTTP")
+    Rel(userService, api, "Faz uma requisição a", "JSON/HTTP")
+    Rel(appContext, gAuth, "Usa")
+    Rel(mobileApp, Expo, "Usa")
 
 }
 

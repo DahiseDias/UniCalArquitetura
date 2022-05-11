@@ -10,9 +10,7 @@
 2. Requisitos
    1. Requisitos Gerais
    2. Requisitos Arquiteturais
-3. Dependências
-   1. Frameworks
-   2. Bibliotecas
+3. Manutenção do Sistema
 4. Deploy
    1. Requisitos do sistema
    2. Instalação

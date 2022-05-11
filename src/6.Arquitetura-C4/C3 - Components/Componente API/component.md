@@ -10,6 +10,8 @@ O diagrama de Componentes mostra como um contêiner é composto por vários "com
 
 **Público-alvo**: arquitetos e desenvolvedores de software.
 
+### Descrição Geral
+ A API recebe requisições da aplicação mobile através dos controllers. Estes delegam a responsabilidade de processamento da lógica para os serviços, que por sua vez podem interagir com outros serviços e DAOs para realizar diversas operações.
 ### Camadas
 
 - __Controller__ - Os controladores são responsáveis por receber as requisições da aplicação mobile e respondê-las. Ao receber a solicitação, o controller delega a responsabilidade do processamento para a camada de serviço.
