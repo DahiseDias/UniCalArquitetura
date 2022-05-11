@@ -11,11 +11,7 @@
    1. Requisitos Gerais
    2. Requisitos Arquiteturais
 3. Manutenção do Sistema
-4. Deploy
-   1. Requisitos do sistema
-   2. Instalação
-5. UI - Interface com o usuario
-6. Arquitetura-C4
+4. Arquitetura-C4
    1. C1 - Contexto
    2. C2 - Container
    3. C3 - Componentes
