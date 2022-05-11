@@ -1,0 +1,41 @@
+@startuml
+allow_mixing
+
+
+skinparam backgroundcolor transparent
+skinparam ArrowFontColor lightGray
+skinparam ArrowColor lightGray
+
+class EventController
+class EventService
+class EventDAO
+class CourseDAO
+class NotificationDAO
+class UserDAO
+class AppContext
+class EventApi
+class CalendarScreen
+class UpdateEventScreen
+class AddEventScreen
+class MyEventsSreen
+class Evento
+
+database db
+
+Evento --> AppContext : recebe Evento
+CalendarScreen --> AppContext : recebe Eventos
+MyEventsSreen --> AppContext :recebe Eventos
+UpdateEventScreen --> AppContext : envia e recebe Evento
+AddEventScreen --> AppContext : envia Evento
+AppContext --> EventApi : usa
+EventApi --> EventController: faz uma requisição HTTP
+EventController --> EventService : usa
+EventService --> EventDAO : usa
+EventService --> CourseDAO : usa
+EventService --> NotificationDAO : usa
+EventService --> UserDAO : usa
+EventDAO --> db : lê/escreve
+UserDAO --> db : lê/escreve
+CourseDAO --> db : lê/escreve
+NotificationDAO --> db : lê/escreve
+@enduml
