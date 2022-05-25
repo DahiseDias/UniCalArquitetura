@@ -15,6 +15,7 @@
       * [Componente API](../4.Arquitetura-C4/C3%20-%20Components/Componente%20API/README.md)
     * [C4 - Code](../4.Arquitetura-C4/C4%20-%20Code/README.md)
       * [Ciclo de vida do Evento](../4.Arquitetura-C4/C4%20-%20Code/Ciclo%20de%20vida%20do%20Evento/README.md)
+  * [5. Outros Diagramas](../5.%20Outros%20Diagramas/README.md)
 
 ---
 
@@ -48,7 +49,3 @@ No processo de priorização dos requisitos, a técnica utilizada consiste na ad
 **Importante** é aquele requisito que é extremamente relevante para o sistema, mas que caso falte ainda permite que o sistema entre em execução, mas cumprindo parcialmente seus objetivos ou procedimentos, na maioria das vezes de forma insatisfatória. Esses requisitos devem ser implementados, mas, caso não sejam, o sistema pode ser implantado da forma como está.
 
 **Desejável** é aquele requisito que não compromete as funcionalidades da base do sistema, dessa forma, permitindo a execução do mesmo de forma satisfatória. Esses requisitos podem ser deixados para versões futuras do software, de modo que ele seja introduzido como uma feature em um pacote de atualização. 
-
-## 2.4 Manutenção do sistema
-
-Esta sessão contém como deve ser feita a manutenção da arquitertura para que ela se mantenha aderente durante todo o ciclo de vida

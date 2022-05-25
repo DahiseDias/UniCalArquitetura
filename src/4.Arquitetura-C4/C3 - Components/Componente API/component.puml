@@ -3,9 +3,10 @@
 
 LAYOUT_WITH_LEGEND()
 ' LAYOUT_LEFT_RIGHT()
-skinparam backgroundcolor transparent
-skinparam ArrowFontColor lightGray
-skinparam ArrowColor lightGray
+' skinparam backgroundcolor transparent
+' skinparam ArrowFontColor lightGray
+' skinparam ArrowColor lightGray
+
 
 ContainerDb(db, "Database", "postgresql", "Armazena dados dos Eventos, Notificações e dados de autenticação do usuário")
 Container(mobileApp, "Mobile App", "Container: React Native", "Fornece um conjunto completo de funcionalidades do Unicall aos usuários por meio de seu dispositivo móvel")

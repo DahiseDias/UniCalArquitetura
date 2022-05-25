@@ -2,9 +2,9 @@
 allow_mixing
 
 
-skinparam backgroundcolor transparent
-skinparam ArrowFontColor lightGray
-skinparam ArrowColor lightGray
+' skinparam backgroundcolor transparent
+' skinparam ArrowFontColor lightGray
+' skinparam ArrowColor lightGray
 
 class EventController
 class EventService

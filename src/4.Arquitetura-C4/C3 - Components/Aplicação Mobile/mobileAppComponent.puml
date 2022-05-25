@@ -3,9 +3,9 @@
 
 LAYOUT_WITH_LEGEND()
 LAYOUT_LEFT_RIGHT()
-skinparam backgroundcolor transparent
-skinparam ArrowFontColor lightGray
-skinparam ArrowColor lightGray
+' skinparam backgroundcolor transparent
+' skinparam ArrowFontColor lightGray
+' skinparam ArrowColor lightGray
 
 Container(api, "API", "Java(SpringBoot)", "Contém a lógica do sistema e de comunição com o banco de dados")
 System_Ext(gAuth, "Google Authentication API", "API para autenticação, login e cadastro")

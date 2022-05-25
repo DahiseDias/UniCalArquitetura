@@ -4,11 +4,11 @@
 
 LAYOUT_WITH_LEGEND()
 ' LAYOUT_LEFT_RIGHT()
-skinparam backgroundcolor transparent
-skinparam ArrowFontColor lightGray
-skinparam ArrowColor lightGray
-skinparam BoundaryBorderColor red
-skinparam DefaultFontColor white
+' skinparam backgroundcolor transparent
+' skinparam ArrowFontColor lightGray
+' skinparam ArrowColor lightGray
+' skinparam BoundaryBorderColor red
+' skinparam DefaultFontColor white
 
 
 Person(upeStudent, "Estudante da UPE", "Um estudante da UPE que possua uma conta no UnicalUPE")
@@ -18,8 +18,11 @@ System_Ext(Expo, "Expo", "Ferramenta utilizada no desenvolvimento mobile que per
 System_Ext(Heroku, "Heroku", "Heroku é uma plataforma de nuvem como serviço onde é possivel hospedar projetos")
 System_Boundary(unical, "Sistema Unical UPE"){
   Container(mobileApp, "Mobile App", "React Native", "Fornece um conjunto completo de funcionalidades do Unicall aos usuários por meio de seu dispositivo móvel")
+  System_Boundary(Backend, "Backend"){
   Container(api, "API", "Java(SpringBoot)", "Contém a lógica do sistema e de comunição com o banco de dados")
   ContainerDb(db, "Database", "postgresql", "Armazena dados dos Eventos, Notificações e dados de autenticação do usuário")
+
+  }
   
   Rel(mobileApp, api, "Usa", "JSON/API CALL")
   Rel(api, db, "lê e escreve do/no", "JDBC")

@@ -11,3 +11,4 @@
       * [Componente API](4.Arquitetura-C4/C3%20-%20Components/Componente%20API/HOME)
     * [C4 - Code](4.Arquitetura-C4/C4%20-%20Code/HOME)
       * [Ciclo de vida do Evento](4.Arquitetura-C4/C4%20-%20Code/Ciclo%20de%20vida%20do%20Evento/HOME)
+  * [5. Outros Diagramas](5.%20Outros%20Diagramas/HOME)

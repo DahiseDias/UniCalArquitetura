@@ -16,6 +16,7 @@
    2. C2 - Container
    3. C3 - Componentes
    4. C4 - Codigo
+5. Outros Diagramas
 
 ### **O que é o UnicalUPE?**
 
